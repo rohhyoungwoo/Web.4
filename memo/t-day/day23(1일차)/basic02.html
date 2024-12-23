@@ -1,0 +1,28 @@
+<!-- 2번 : a태그 <a></a>, img 태그 <img />, br태그 <br>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>a태그와 이미지태그</title>
+</head>
+<body>
+  <h1>a태그 : 링크 태그</h1>
+  <a href="https://www.naver.com">네이버</a><br>
+  <a href="https://www.naver.com" target="_blank">네이버</a><br>
+  <a href="D:/web_0900_kys/web_4/workspace/day23(1일차)/basic01.html">basic01</a><br>
+<!-- 절대경로로 사용되는 경우 브라우저는 보안정책에 따라 
+ 로컬디스크 경로를 직접 열지 못하도록 제한하고 있다 -->
+  <a href="./basic01.html">basic01</a><br>
+  <!-- 상대경로로 사용한다 -->
+  <h1>img태그 : 이미지 태그</h1>
+  <img src="./img/cat.jpg" alt="고양이사진" witdth ="150" height="150">
+  
+  <h1>img태그와 a태그 함께 사용</h1>
+  <a href="https://www.naver.com" target="_blank">
+    <img src="https://i.namu.wiki/i/IhFrc6uiSNlonNFRXzSNrKrhPKrjpmlmsB_SDg3x0PeW_L06BFuF7mOq8AcPDYjonfNpG64cQYsINU8sICeDpg.webp" width="50%" height="50%">
+  </a>
+  <!-- 링크로 넣어줄 땐 이미지 주소 복사로 진행한다!
+  너비와 높이는 기본 px단위로 설정되고 %단위로도 사용 가능하다 -->
+</body>
+</html>
