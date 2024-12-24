@@ -1,0 +1,60 @@
+<!-- 1번 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>과제1번</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    .main{
+      /* background-color: antiquewhite; */
+      height: 500px ;
+    }
+
+    .header{
+      background-color: antiquewhite;
+      height: 100px;
+    }
+
+    .section-container{
+      display: flex;
+      /* border: 3px solid black; */
+      height: 100%;
+    }
+    .aside{
+      background-color: blueviolet;
+      width: 150px;
+    }
+
+    
+    .section{
+      background-color: brown;
+      width: 100%;
+    }
+    
+    .footer{
+      background-color: antiquewhite;
+      height: 100px;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div class="header">header</div>
+    <!-- header, footer 높이 : 100px
+      main 높이 : 500px aside 너비 : 150px 나머지 section-->
+    <div class="section-container">
+      <div class="aside">aside</div>
+      <div class="section">section</div>
+    </div>
+    <div class="footer">footer</div>
+  </div>
+</body>
+</html>
