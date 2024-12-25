@@ -1,3 +1,4 @@
+<!-- 3번 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,25 +11,45 @@
       padding:0;
     }
 
-    .main-container{
-      display: flex;
-      flex-direction: column;
-      
-    }
-
+    
     .header{
       background-color: black;
       height: 100px;
       /* width: 100px; */
     }
-
+    
+    .main-container{
+      /* display: flex; */
+      /* flex-direction: row; */
+      /* list-style: none; */
+      
+      
+    }
     .Asection{
       background-color: cadetblue;
       color: aliceblue;
       /* width: 1px; */
+      /* padding-left: 20px; */
       height: 25px;
-      padding-left: 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      /* justify-content: center; */
+      /* padding-left: 15px; */
+      /* margin: 0px 10px; */
+      /* list-style-position: inside; margin: 0px; */
+      /* display:inline-block; */
+      /* list-style: none; */
     }
+    .Asection ul{
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+    }
+    .Asection li{
+      padding: 15px;
+    }
+
 
     .Bsection{
       background-color: antiquewhite;
@@ -45,14 +66,21 @@
   <div class="header"></div>
   <div class="main-container">
     <div class="Asection">
-      <ul style="word-spacing: 25px;">
-        <strong>
-          <span>HOME</span>
+      <!-- <ul style="word-spacing: 25px;"> -->
+      <ul>
+        <!-- <li> -->
+          <li><strong>HOME</strong></li>
+          <li><strong>상품목록</strong></li>
+          <li><strong>상품등록</strong></li>
+          <li><strong>주문내역</strong></li>
+          <li><strong>회원정보</strong></li>
+        <!-- </li> -->
+          <!-- <span>HOME</span>
           <span>상품목록</span>
           <span>상품등록</span>
           <span>주문내역</span>
-          <span>회원정보</span>
-        </strong>
+          <span>회원정보</span> -->
+        
       </ul>
     </div>
     <div class="Bsection"></div>
