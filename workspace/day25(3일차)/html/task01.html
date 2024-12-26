@@ -12,19 +12,188 @@
 
     .header{
     background-color: tomato;  
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    }
+    .nav{
+      display: flex;
+      flex-direction: row;
+      font-size: 20px;
+      background-color: darkblue;
+      color: white;
+      height: 50px;
+      align-items: center;
+    }
+
+    .div{
+      margin: 0 20px;
+      /* padding: 10px; */
+    }
+
+    .main-container{
+      background-color:black;
+      display: flex;
+      flex-direction: row;
+      color: white;
+      height: 100%;
+      width: 100%;
+      /* font-size: 30px; */
+    }
+
+    .aside{
+      background-color: brown;
+      height: 600px;
+      width: 200px;
+      font-size: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+   
+    .main--text-box{
+      background-color: greenyellow;
+      /* display: flex; */
+      /* flex-direction: ; */
+      height: 600px;
+      width: 100%;
+      font-size: 30px;
+      /* justify-content: center; */
+      /* align-items: center; */
+    }
+    .main{
+      background-color: greenyellow;
+      /* height: 300px;  */
+      /* width: 100%; */
+      /* font-size: 30px; */
+      /* display: flex; */
+      /* flex-direction: column; */
+      /* justify-content: center; */
+      /* border: 1px solid white; */
+      /* text-align: left; */
+    }
+    
+    .section01{
+      background-color: blueviolet;
+      /* width: 100%; */
+      height: 200px;
+      width: 40%;
+      margin: 15px 30%;
+      /* align-content: center; */
+      /* justify-content: center; */
+      /* text-align: center; */
+      /* margin: 10px 10%; */
+      /* display: flex; */
+      /* flex-direction: column; */
+      /* justify-items: center ; */
 
     }
     
+    .section02{
+      background-color: blueviolet;
+      /* width: 100%; */
+      height: 300px;
+      width: 40%;
+      /* margin: 50px 30%; */
+      margin: 15px 30%;
+     }
 
+     .footer{
+      background-color: black;
+      color: white;
+      height: 100px;
+      font-size: 30px;
+     }
+    
+     .section01--article-container{
+      /* background-color:aqua; */
+      display: flex;
+      flex-direction: row; 
+      /* margin: 0 10px; */
+      justify-content: center;
+      
+      /* padding: ; */
+      
+     }
 
+     .section02--article-container{
+      display: flex;
+      flex-direction: row;
+      /* flex-wrap: wrap; */
+      justify-content: center;
+     }
+     .section01--article{
+      /* text-align: center; */
+      background-color: aqua;
+      /* display: flex; */
+      /* flex-direction: c; */
+      margin: 50px 50px;
+      /* justify-items: center; */
+      height: 60px;
+      width: 100px;
+      text-align: center;
+      align-items: center;
+      justify-items: center;
+     }
+     .section02--article{
+      background-color: aqua;
+      margin: 15px 15px;
+      padding: 30px 50px;
+     }
   </style>
 </head>
 <body>
   <header>
     <div class="header">header</div>
   </header>
-  <div class="nav">nav</div>
-
-
-</body>
-</html>
+  <div class="nav">
+    <div class="div">nav 메뉴1</div>
+    <div class="div">nav 메뉴2</div>
+    <div class="div">nav 메뉴3</div>
+    <div class="div">nav 메뉴4</div>
+  </div>
+  <div class="main-container">
+    <aside>
+      <div class="aside">aside</div>
+    </aside>
+    <main class="main--text-box">
+      <div class="main">main</div>
+      <div class="section01">section
+        <div class="section01--article-container">
+          <div class="section01--article">article</div>
+          <div class="section01--article">article</div>
+          <div class="section01--article">article</div>
+        </div>
+      </div>
+      
+      
+      <div class="section02">section
+        <div class="section02--article-container">
+          <div class="section02--article">article</div>
+          <div class="section02--article">article</div>
+          <div class="section02--article">article</div>
+          <div class="section02--article">article</div>
+        </div>
+      </div>
+        
+    </main>
+  </div>
+    <footer>
+      <div class="footer">footer</div>
+    </footer>
+  </body>
+  </html>
+  <!-- <div class="section01--article-container"
+    <div class="section01--article">article</div>
+    <div class="section01--article">article</div>
+    <div class="section01--article">article</div> -->
+  <!-- </div> -->
+  <!-- <div class="section02--article-container">
+    <div class="section02--article">article</div>
+    <div class="section02--article">article</div>
+    <div class="section02--article">article</div>
+    <div class="section02--article">article</div> -->
+  <!-- </div> -->
