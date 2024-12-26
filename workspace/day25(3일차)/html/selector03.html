@@ -1,0 +1,32 @@
+<!--  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- viewport를 지정하는 태그 -> 사용자기기에서 실제화면에 표시되는 화면 
+  device에 맞춤, scale = 1~10까지 확대-->
+  <title>select03</title>
+  <style>
+    li::first-letter{
+    color: red;
+    }
+/* 블록요소에서만 적용 된다 */
+    li:last-child::before{
+      content: "new";
+      color: white;
+      background-color: gold;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <ul>
+      <li>리스트1</li>
+      <li>리스트2</li>
+      <li>리스트3</li>
+    </ul>
+  </main>
+</body>
+</html>
